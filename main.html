@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm CLOCK for Coding Ninja</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="center">
+        <h1 class="title">&#128373;Ninjas Alarm<h1>
+            <div>
+                <!-- Real Time  -->
+                <h3 class="realtime">Show's Real Time</h3> 
+                <!-- Select time of the alarm to be set(for new alarm) -->
+                
+                <div class="alarmtimebody">
+                    <label>
+                        <div>
+                            <select name="time" id="hr"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select name="time" id="min"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select name="tiem" id="sec"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select name="time" id="ampm"></select>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <button id="setButton">Set Alarm</button>
+            <button id="setClear">Clear Alarm</button>
+            <div>
+                <h3 class="recent">Recent Alarm</h3>
+                <hr>
+                <ul id="incomplete-alarms">
+                
+                </ul>
+            </div>
+    </div> 
+
+    <script src="main.js"></script>
+</body>
+</html>
